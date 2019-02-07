@@ -41,7 +41,7 @@ This repo is based on a fresh version of Laravel 5, so to recreate this implemen
 
 7. Add a new folder at `app/Libraries` and add the file from this repo from the same location, `Duo.php` (available [here](https://github.com/duosecurity/duo_php/blob/master/src/Web.php)) and change the name space to `App\Libraries`
 
-8. Open `env` and add add the Intergration key `DUO_IKEY`, Secret Key `DUO_SKEY` and Host `DUO_HOST` values from your Duo Security account, and generate a random 40 char Application Key `DUO_AKEY`
+8. Open `.env` and add add the Intergration key `DUO_IKEY`, Secret Key `DUO_SKEY` and Host `DUO_HOST` values from your Duo Security account, and generate a random 40 char Application Key `DUO_AKEY`
 
 9. Open `routes/web.php`, and add a new post route to overpass the default (`'/login'`) follow the route in this repo
 
